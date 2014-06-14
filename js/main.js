@@ -4,6 +4,10 @@
     return alert("give me your money");
   });
 
+  $('#abandonShip').click(function() {
+    return alert("sharks");
+  });
+
 }).call(this);
 
 //# sourceMappingURL=main.map

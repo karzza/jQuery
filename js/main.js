@@ -8,6 +8,10 @@
     return alert("sharks");
   });
 
+  $('#submarine').click(function() {
+    return alert("typhoon");
+  });
+
 }).call(this);
 
 //# sourceMappingURL=main.map

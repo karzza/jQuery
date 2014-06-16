@@ -10,11 +10,17 @@
     return alert("sharks");
   });
 
-  count = 4;
+  count = 0;
 
   $('#submarine').click(function() {
+    console.log(count);
     count = count + 1;
     return $('#submarineCount').html(count);
+  });
+
+  $('#restart').click(function() {
+    $('#submarineCount').html(0);
+    return count = 0;
   });
 
 }).call(this);

@@ -4,8 +4,10 @@ $('#pirates').click ->
 $('#abandonShip').click ->
   alert "sharks"
 
+count=4
 $('#submarine').click ->
-  alert "typhoon"
+  count=count+1
+  $('#submarineCount').html(count)
 # $ jQuery
 # $('.classNone') <- jQuery
 #   $('.classNone') <- jQuery selector

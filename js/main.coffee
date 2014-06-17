@@ -15,6 +15,18 @@ $('#restart').click ->
   $('#submarineCount').html(0)
   count=0
 
+worldCup=$('.germany h1').html()
+alert worldCup
+
+worldCupYear=$('.germany p').html()
+alert worldCupYear
+
+lastNightGame=$('.germany h2').html()
+alert lastNightGame
+
+unitedStates=$('.germany h3').html()
+alert unitedStates
+
 # $ jQuery
 # $('.classNone') <- jQuery
 #   $('.classNone') <- jQuery selector
